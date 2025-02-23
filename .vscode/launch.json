@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Run C Program with Arguments",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${workspaceFolder}/yourprogram", 
+          "args": ["arg1", "arg2", "arg3"],  
+          "cwd": "${workspaceFolder}",
+          "stopAtEntry": false,
+          "externalConsole": true,  
+          "MIMode": "gdb"  
+      }
+  ]
+}
