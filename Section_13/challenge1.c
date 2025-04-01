@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void square_num(int *pnum);
 
