@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct time
+{
+    int hours;
+    int minutes;
+    int seconds;
+};
+
+struct date
+{
+    int day;
+    int month;
+    int year;
+};
+
+struct dateAndTime
+{
+    struct date sdate;
+    struct time stime;
+};
+
+int main(){
+
+    //struct dateAndTime event = { {2, 1, 2015}, {.hour = 3, .minutes = 30, .seconds = 0} };
+    struct dateAndTime events[100];
+    
+    events[0].stime.hours = 12;
+    events[0].stime.minutes = 0;
+    events[0].stime.seconds = 0;
+    
+
+    return 0;
+}
